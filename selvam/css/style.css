@@ -1,0 +1,51 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    width: 100%;
+      background-image: url(/Image/backgroun.png.png);
+      background-size: cover;
+      box-sizing: border-box;
+      font-size: large;
+      text-indent: 0cap;
+      font-family: Arial, Helvetica, sans-serif;
+      
+
+} 
+.menu-bar
+{
+    background: rgb(16, 83, 159);
+    text-align:center;
+}
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;  
+  color: #bb1d86;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:rgb(197, 25, 25)
+}
+.active, .menu-bar ul li a
+{
+    background: #352787 ;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+
+
+
